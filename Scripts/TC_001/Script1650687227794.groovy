@@ -43,6 +43,8 @@ Mobile.tap(findTestObject('Object Repository/qasir_mobile/android.widget.EditTex
 
 Mobile.sendKeys(findTestObject('Object Repository/qasir_mobile/android.widget.EditText - PIN (1)'), '010597')
 
+Mobile.tap(findTestObject('Object Repository/qasir_mobile/android.widget.TextView - kizu'), 0)
+
 Mobile.tap(findTestObject('Object Repository/qasir_mobile/android.widget.Button - SAAT APLIKASINYA DIGUNAKAN (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/qasir_mobile/android.widget.ImageView'), 0)
